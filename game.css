@@ -1,0 +1,75 @@
+
+.div1{
+    text-align: center;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.div2
+{
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+    height: 60vmin;
+    width: 60vmin;
+    gap: 6px;
+    
+}
+
+body
+{
+    background-color: aquamarine;
+    text-align: center;
+}
+.box
+{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 58px;
+    color: red;
+    box-shadow: 0 0 0.1;
+    background-color: blanchedalmond;
+}
+.head
+{
+    font-size: 45px;
+    font-weight: bold;
+}
+.resetbtn
+{
+    height: 50px;
+    width: 120px;
+    background-color: black;
+    color: aliceblue;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.newgamebtn
+{
+    height: 50px;
+    width: 120px;
+    margin-left: 570px;
+    background-color: black;
+    color: aliceblue;
+    cursor: pointer;
+    display: block;
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.msg-box
+{
+    font-size: 50px;
+    font-weight: bold;
+    color: green;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.hide
+{
+    display: none;
+}
